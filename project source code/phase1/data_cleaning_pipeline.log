@@ -1,0 +1,21 @@
+2026-07-31 15:34:45,883 - INFO - ============================================================
+2026-07-31 15:34:45,884 - INFO - Customer Churn ETL Pipeline Started
+2026-07-31 15:34:45,884 - INFO - Starting data loading...
+2026-07-31 15:34:45,905 - INFO - Data loaded successfully. Rows: 7043, Columns: 21
+2026-07-31 15:34:45,905 - INFO - Starting data cleaning...
+2026-07-31 15:34:45,934 - INFO - Data cleaning completed successfully. Rows after cleaning: 7043
+2026-07-31 15:34:45,934 - INFO - Cleaning step completed.
+2026-07-31 15:34:45,935 - INFO - Starting feature engineering...
+2026-07-31 15:34:46,784 - INFO - Feature engineering completed successfully. Rows processed: 7043
+2026-07-31 15:34:46,784 - INFO - Feature engineering step completed.
+2026-07-31 15:34:46,784 - INFO - Saving output files...
+2026-07-31 15:34:46,858 - INFO - Clean data saved to: outputs\clean_data_20260731_153446.csv
+2026-07-31 15:34:46,858 - INFO - Feature data saved to: outputs\feature_data_20260731_153446.csv
+2026-07-31 15:34:46,858 - INFO - Output saving step completed.
+2026-07-31 15:34:46,858 - INFO - ============================================================
+2026-07-31 15:34:46,858 - INFO - Pipeline completed successfully.
+2026-07-31 15:34:46,858 - INFO - Total execution time: 0.97 seconds
+2026-07-31 15:34:46,858 - INFO - Rows processed: 7043
+2026-07-31 15:34:46,858 - INFO - Clean data file: outputs\clean_data_20260731_153446.csv
+2026-07-31 15:34:46,858 - INFO - Feature data file: outputs\feature_data_20260731_153446.csv
+2026-07-31 15:34:46,858 - INFO - ============================================================
